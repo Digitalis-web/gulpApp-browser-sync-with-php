@@ -12,7 +12,8 @@ g.task('default', function () {
         open: false
     });
 
-    var proxy = httpProxy.createProxyServer({});
+    var proxy   = httpProxy.createProxyServer({});
+    var reload  = browserSync.reload;
 
     browserSync({
         notify: false,
