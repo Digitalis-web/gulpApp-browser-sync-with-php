@@ -1,0 +1,27 @@
+{
+  "name": "gulpapp",
+  "version": "1.0.0",
+  "description": "a gulp aplication for browser sync with php",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Digitalis-web/gulpApp-browser-sync-with-php.git"
+  },
+  "author": "digitalis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Digitalis-web/gulpApp-browser-sync-with-php/issues"
+  },
+  "homepage": "https://github.com/Digitalis-web/gulpApp-browser-sync-with-php#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-connect-php": "0.0.8",
+    "gulp-beer": "^1.0.1",
+    "gulp-watch": "^4.3.11",
+    "http-proxy": "^1.16.2"
+  }
+}
